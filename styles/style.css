@@ -6,13 +6,16 @@
 .navbar{
     justify-content: space-around;
     background-color: rgba(65, 37, 103, 1);
-    color: rgba(255, 255, 255, 1);
+    color: white;
 
+}
+.text-color{
+    color: plum;
 }
 .nav-links{
     list-style: none;
     text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+    color: white;
     gap: 24px;
 }
 .btn-primary{
@@ -23,7 +26,43 @@
     text-decoration: none;
 }
 .btn-primary{
-    margin-top: 20px;
-    border-radius: 12px;
+width: 145px;
+height: 42px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4;
+padding: 12px 16px 12px 16px;
+border-radius: 20px;
+margin-top: 8px;
+color: white;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
+.hero{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(../assets/hero-bg.png);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+/*.hero-container{
+    display: grid;
+    align-items: center;
+    justify-items: center;
 
+}*/
+.hero-container h2,p{
+    color: white;
+}
+.btn-hero{
+    width: 140px;
+    height: 42px;
+    border-radius: 20px;
+    color: green;
+    background-color: rgba(65, 37, 103, 1);
+}
+.about p{
+    color: black;
+}
