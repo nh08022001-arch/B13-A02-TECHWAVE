@@ -40,7 +40,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 }
 .hero{
     position: relative;
-    width: 100%;
+    width: 1600px;
     height: 700px;
     background-image: url(../assets/hero-bg.png);
     display: grid;
@@ -63,6 +63,44 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     color: green;
     background-color: rgba(65, 37, 103, 1);
 }
+.about{
+    width: 1600px;
+    /*width: 100%;*/
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80;
+    padding: 50px 200px 120px 200px;
+    background-color:rgba(65, 37, 103, 1) ;
+    
+}
 .about p{
-    color: black;
+    color: white;
+}
+.about-items{
+    color: green;
+    font-weight: 800;
+}
+.about-items p{
+    color: green;
+}
+.ab-head{
+    color: white;
+}
+.about-container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16;
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
 }
