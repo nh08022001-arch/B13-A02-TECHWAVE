@@ -1,0 +1,29 @@
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.navbar{
+    justify-content: space-around;
+    background-color: rgba(65, 37, 103, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+.nav-links{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    gap: 24px;
+}
+.btn-primary{
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.btn-primary{
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
