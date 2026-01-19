@@ -19,6 +19,7 @@
     gap: 24px;
 }
 .btn-primary{
+    cursor: pointer;
     
 }
 .navbar a{
@@ -38,7 +39,7 @@ margin-top: 8px;
 color: white;
 background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
-/*hero*/
+/*hero section style*/
 .hero{
     position: relative;
     width: 1440px;
@@ -48,12 +49,6 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     align-items: center;
     justify-items: center;
 }
-/*.hero-container{
-    display: grid;
-    align-items: center;
-    justify-items: center;
-
-}*/
 .hero-container h2,p{
     color: white;
 }
@@ -64,7 +59,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     color: green;
     background-color: rgba(65, 37, 103, 1);
 }
-/*about*/
+/*about section style*/
 .about{
     width: 1440px;
     /*width: 100%;*/
@@ -106,7 +101,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     justify-content: space-around;
     gap: 80px;
 }
-/*cards*/
+/*cards section style*/
 .cards {
     background-color: rgba(65, 37, 103, 1);
 
@@ -156,5 +151,71 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 .card-item ,.card-high ,.card-wide h3{
     color: white;
 }
+
+/*host section style*/
+.host {
+  padding: 80px 40px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.host h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 35px;
+}
+
+.host-card {
+  background: #2b0f4f;
+  border-radius: 24px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.host-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.host-info h2 {
+    color: black;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.socials {
+  display: inline-flex;
+  border-radius: 50%;
+  background: #3b1667;
+  margin-right: 10px;
+  font-weight: bold;
+  gap: 20px;
+}
+.host-info h2{
+    color: white;
+}
+.host-info p{
+    color: white;
+}
+/*footer section style*/
+.foot-container{
+    background-image: url(../assets/footer-bg.png);
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+.foot-container h1{
+    color: white;
+    font-size: 2.5rem;
+}
+.foot-heading {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
 
 
