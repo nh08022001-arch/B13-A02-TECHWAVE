@@ -151,15 +151,32 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 .card-item ,.card-high ,.card-wide h3{
     color: white;
 }
+/*video card styles*/
+.video-card{
+   /*width: 1000px;
+   height: 400px;*/ 
+   background-color:rgba(65, 37, 103, 1);
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 20px;
+
+}
+.video-card h1, h2{
+    color: white;
+}
 
 /*host section style*/
 .host {
+    background-color: rgba(65, 37, 103, 1);
   padding: 80px 40px;
   max-width: 1440px;
   margin: auto;
 }
 
 .host h1 {
+    color: white;
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 35px;
@@ -203,9 +220,9 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 /*footer section style*/
 .foot-container{
     background-image: url(../assets/footer-bg.png);
-    /*display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;*/
+    align-items: center;
 }
 .foot-container h1{
     color: white;
@@ -215,6 +232,11 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     display: flex;
     justify-items: center;
     align-items: center;
+}
+.foot-social{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
 }
 
 
